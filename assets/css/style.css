@@ -217,3 +217,31 @@ input[type=submit]:hover {
     display: block;
     clear: both;
 }
+@media screen and (max-width: 640px) {
+    
+    .topnav {
+        max-width: 640px;
+    }    
+}
+@media screen and (max-width: 768px) {
+    .lnks {
+        padding-top: 3%;
+        padding-right: 3%;
+    }
+}
+@media screen and (max-width: 980px) {
+    .top {
+        position: static;
+        height: 60px;
+    }
+    .name {
+        height: 60px;
+    }
+    .name p {
+        margin: 11px;
+    }
+    .lnks {
+        padding-top: 2.5%;
+        padding-right: 2%;
+    }
+}
